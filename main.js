@@ -186,7 +186,7 @@ async function runBot() {
             await delay(60000);
         }
 
-         for (let i = 0; i < 10; i++) {
+         for (let i = 0; i < 1; i++) {
            console.log("\n💧 Đang thêm thanh khoản...");
             await addLiquidity(MNEMONIC, LIQ_ORO, LIQ_ZIG);
             await delay(60000);
